@@ -1,0 +1,8 @@
+data taken from:
+
+http://archive.ics.uci.edu/ml/datasets/Wine+Quality?ref=datanews.io
+
+1599 samples
+12 attributes
+
+modified to have first column id (1 to 1599)

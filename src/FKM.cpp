@@ -4,10 +4,10 @@
 
 
 void printUsage(){
-    std::cout<<"Usage: FKM <inputFilename> <prefix for filenamse> <m value> <epsilon singificance difference> <max Itererations> <K> <metric>\n";
+    std::cout<<"Usage: FKM <directory> <inputFilename> <prefix for filenamse> <m value> <epsilon singificance difference> <max Itererations> <convert> <K> <metric>\n";
     std::cout<<"<directory> (string)- directory in which input file is located and output files will be generated\n";
-    std::cout<<"<inputFilename.csv> (string)- name of the input .csv file (in the 'data' folder)\n";
-    std::cout<<"<prefix> (string)- string to add to all created files in the data folder\n";
+    std::cout<<"<inputFilename.csv> (string)- name of the input .csv file (in the dir folder)\n";
+    std::cout<<"<prefix> (string)- string to add to all created files in the dir folder\n";
     std::cout<<"<m-value>  (double)- m parameter for fuzzy K means \n";
     std::cout<<"<epsilon>  (double)- if there is no difference bigger than epsilon in a mu value of the current and last matrix, stop\n";
     std::cout<<"<max Iteratons> (integer)- max iterations, before stopping (regardless of epsilon)\n";

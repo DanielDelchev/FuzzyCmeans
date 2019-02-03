@@ -1,0 +1,9 @@
+data taken from:
+
+https://archive.ics.uci.edu/ml/datasets/Wireless+Indoor+Localization
+
+2000 samples
+7 attributes (of which 1 categorical is excluded)
+
+modified to exclude 1 categorical attribute
+and to have first column id (1 to 2000) and column names
