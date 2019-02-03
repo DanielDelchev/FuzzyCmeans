@@ -1,0 +1,15 @@
+﻿*.cbp
+
+Debug\
+
+Release\
+
+bin\
+
+obj\
+
+*.depend
+
+*.layout
+
+*.exe

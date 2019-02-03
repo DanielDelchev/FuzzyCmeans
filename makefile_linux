@@ -1,0 +1,7 @@
+﻿CC=g++
+CFLAGS=-Wall -std=c++11 -O3 -pthread
+INCLUDE = -I include/external/TNT -I include/external/JAMA -I include/ -I include/external/PCA.h
+LINK = -L .
+
+FKM:
+	${CC} src/FKM.cpp src/PCA.cpp src/Model.cpp -o FKM ${CFLAGS} ${INCLUDE} ${LINK}
