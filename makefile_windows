@@ -1,5 +1,5 @@
 ﻿CC=g++
-CFLAGS=-Wall -std=c++11 -O3 -pthread
+CFLAGS=-Wall -std=c++11 -O3
 INCLUDE = -I include\external\TNT -I include\external\JAMA -I include\ -I include\external\PCA.h
 LINK = -L .
 
