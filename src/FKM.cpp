@@ -20,6 +20,7 @@ void printUsage(){
 
 int main(int argc, const char* argv[])
 {
+
     std::string inputFile;
     std::string prefix;
     std::string dir;
@@ -115,7 +116,6 @@ int main(int argc, const char* argv[])
         printUsage();
         return 1;
     }
-
 
 
     Model cute = Model(inputFile,dir);
